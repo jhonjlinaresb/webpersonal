@@ -1,0 +1,135 @@
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	width: 100%;
+	max-width:100%;
+	background: linear-gradient(90deg, black, grey, black);
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+header {
+	width:100%;
+}
+
+header nav {
+	width: 100%;
+	max-width: 100%;
+	background: linear-gradient(70deg, #2c2c2c, #0f0f0f, #1c1c1c, black);
+}
+
+.menu_bar {
+	display: none;
+	position: absolute;
+}
+
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+header nav ul li a:hover {
+	background: linear-gradient(70deg, #0f0f0f, grey);
+}
+
+section {
+	padding:20px;
+}
+
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+
+	.menu_bar{
+		display:block;
+		padding: 40px;
+		background: linear-gradient(70deg, #2c2c2c, #0f0f0f, #1c1c1c, black);
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		text-align: left;
+	}
+
+	.bt-menu{
+		position: absolute;
+		left: 1em;
+		top: 1em;
+		color: #fff;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+
+/*Here's ID*/
+
+#banner {
+    background-image: url('../img/keyboard.jpg');
+    background-size: cover;
+    padding-top: 200px;
+	min-height: 350px;
+	border: #0f0f0f  0.5px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#me {
+	background: linear-gradient(90deg, #f4f4f4, #c3c3c3, #f4f4f4);
+    background-size: cover;
+    padding-top: 200px;
+	min-height: 350px;
+	border: #0f0f0f 2px;
+	color: black;
+	text-align: center;
+}
+
+.me {
+	background: transparent;
+	height: 100px;
+	width: 40%;
+	border: #0f0f0f solid 1px;
+	text-align: center;
+	text-transform: none;
+	position: relative;
+	left: 10em;
+
+}
