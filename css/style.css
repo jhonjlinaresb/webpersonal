@@ -119,17 +119,39 @@ section {
 	min-height: 350px;
 	border: #0f0f0f 2px;
 	color: black;
-	text-align: center;
+	position: absolute;
 }
 
-.me {
+.me1 {
+	position: absolute;
+	top: 2em;
+	width: 800px;
+	height: 1200px;
+}
+
+.me2 {
 	background: transparent;
-	height: 100px;
+	height: 30%;
 	width: 40%;
 	border: #0f0f0f solid 1px;
-	text-align: center;
-	text-transform: none;
-	position: relative;
-	left: 10em;
+	text-align: justify;
+	position: absolute;
+	left: 30em;
+	top: 5px;
+}
 
+.meimg{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	bottom: 0.1em;
+	left: 35em;
+}
+
+.boximg {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 00.1em;
 }
