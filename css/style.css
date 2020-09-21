@@ -2,7 +2,7 @@ body{
 	font-family: 'Noto Sans JP', sans-serif;
 	width: 100%;
 	max-width:100%;
-	background: linear-gradient(90deg, black, grey, black);
+	background: linear-gradient(90deg, black, #2c2c2c, black);
 }
 * {
 	margin:0;
@@ -270,7 +270,7 @@ header nav ul li a:hover {
 
 
 .footer {
-	background: linear-gradient(10deg, black grey, black);
+	background: linear-gradient(10deg, black #2c2c2c, black);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
