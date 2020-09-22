@@ -131,20 +131,16 @@ p{
     border: 1px solid black;
 }
 
-// Telephone Small
+
 @media (max-width: 575.98px) { 
     h1 { font-size: 40px; line-height: normal; }
 }
 
-// Telephone Normal
-@media (min-width: 576px)  { ... }
+@media (min-width: 576px)  { }
 
-// Tablets
-@media (max-width: 767.98px) { ... }
+@media (max-width: 767.98px) { }
 
-// Escritorios Promedio
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) { }
 
-
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) { }
 
